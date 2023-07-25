@@ -1,38 +1,37 @@
+*{
+  box-sizing: border-box;
+
+  }
+body{
+  background-image: url('https://www.aerisweather.com/blog/wp-content/uploads/2020/09/whypayforweather_header.jpg');
+  background-repeat: no-repeat;
+  background-size: 1530px;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  padding: 15px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+h1{
   color: white;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-size: 30px;
+  font-weight: bolder;
 }
